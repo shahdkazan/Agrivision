@@ -22,7 +22,7 @@ class WeatherRiskService {
   }
 
   Future<Map<String, dynamic>> fetchWeather(double lat, double lon) async {
-    const apiKey = '120924b4ae3a7f1eb71378673c4ff7ec';
+    const apiKey = '';
 
     final url =
         'https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$lon&appid=$apiKey&units=metric';

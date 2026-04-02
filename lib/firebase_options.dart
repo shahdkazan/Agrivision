@@ -41,8 +41,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA4Zeh4Fu6GwRD2CMpadRPpwPQ8Bnn7xg0',
-    appId: '1:943894047827:web:05125a8abce087290e2aa6',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '943894047827',
     projectId: 'agrivision-2026',
     authDomain: 'agrivision-2026.firebaseapp.com',
@@ -50,16 +50,16 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAawdhVwVdsO1csRmwfglyTyfNVJpxyI6E',
-    appId: '1:943894047827:android:4d2d9c6dcb72fb320e2aa6',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '943894047827',
     projectId: 'agrivision-2026',
     storageBucket: 'agrivision-2026.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDPzQjJUzrUJy5SWxF3O-vhYFqkDqoQQvg',
-    appId: '1:943894047827:ios:9ec03191590af3f20e2aa6',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '943894047827',
     projectId: 'agrivision-2026',
     storageBucket: 'agrivision-2026.firebasestorage.app',
@@ -67,8 +67,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDPzQjJUzrUJy5SWxF3O-vhYFqkDqoQQvg',
-    appId: '1:943894047827:ios:9ec03191590af3f20e2aa6',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '943894047827',
     projectId: 'agrivision-2026',
     storageBucket: 'agrivision-2026.firebasestorage.app',
@@ -76,8 +76,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA4Zeh4Fu6GwRD2CMpadRPpwPQ8Bnn7xg0',
-    appId: '1:943894047827:web:c5dfc478791fe00c0e2aa6',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '943894047827',
     projectId: 'agrivision-2026',
     authDomain: 'agrivision-2026.firebaseapp.com',
