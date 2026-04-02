@@ -7,7 +7,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 class ChatbotService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
-  final String apiKey = "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";
+  final String apiKey = "";
 
   // Step 1: Get disease info from Firestore
   Future<String> getDiseaseInfo(String diseaseName, String intent) async {
