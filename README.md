@@ -33,6 +33,14 @@ The application is built using Flutter, integrated with TensorFlow Lite, and pow
 
 - 🌍 Localization
   - Full Arabic support (RTL UI)
+ 
+- 🤖 AI Chatbot Assistant
+  - Provides interactive agricultural guidance
+  - User selects predefined intents (recommendations, symptoms, description, support)
+  - Retrieves disease-specific data from Firestore
+  - Sends structured context to an LLM via OpenRouter API
+  - Generates accurate Arabic responses based only on retrieved data
+  - Reduces hallucinations by grounding responses in database content
 
 ---
 
@@ -187,14 +195,22 @@ best_float16.tflite
 - SyncService
 
 ---
-🤖 AI Chatbot Assistant
+🤖 AI Chatbot system
 
-Provides interactive agricultural guidance
-User selects predefined intents (recommendations, symptoms, description, support)
-Retrieves disease-specific data from Firestore
-Sends structured context to an LLM via OpenRouter API
-Generates accurate Arabic responses based only on retrieved data
-Reduces hallucinations by grounding responses in database content
+The chatbot is designed as a controlled AI assistant that combines database knowledge with LLM generation.
+
+Pipeline:
+1. User selects an intent (symptoms, recommendations ,Description, Support Centers)
+2. App retrieves disease-specific information from Firestore
+3. Retrieved context is sent to an LLM (via OpenRouter API)
+4. LLM generates a structured Arabic response based only on the provided context
+
+Key Features:
+- Context-aware responses (not generic answers)
+- Arabic-only output
+- Controlled generation to avoid hallucinations
+- Seamless integration with detected disease results
+
 
 ---
 
