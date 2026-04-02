@@ -4,6 +4,7 @@
 AgriVision is a mobile-based intelligent agricultural assistant that detects crop diseases using deep learning segmentation models, provides weather-based risk analysis, and includes an AI-powered chatbot for interactive, context-aware agricultural guidance. The system is designed with an offline-first approach to ensure usability in low-connectivity environments.
 
 The application is built using Flutter, integrated with TensorFlow Lite, and powered by a lightweight YOLOv8n-seg model for efficient on-device inference.
+
 ---
 
 ## 🎯 Features
