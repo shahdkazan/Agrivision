@@ -1,10 +1,9 @@
 # 🌱 AgriVision – Smart Crop Disease Detection System
 
 ## 📌 Overview
-AgriVision is a mobile-based intelligent agricultural assistant that detects crop diseases using deep learning segmentation models and provides weather-based risk analysis. The system is designed with an offline-first approach to ensure usability in low-connectivity environments.
+AgriVision is a mobile-based intelligent agricultural assistant that detects crop diseases using deep learning segmentation models, provides weather-based risk analysis, and includes an AI-powered chatbot for interactive, context-aware agricultural guidance. The system is designed with an offline-first approach to ensure usability in low-connectivity environments.
 
 The application is built using Flutter, integrated with TensorFlow Lite, and powered by a lightweight YOLOv8n-seg model for efficient on-device inference.
-
 ---
 
 ## 🎯 Features
@@ -185,6 +184,16 @@ best_float16.tflite
 - ConnectivityService
 - FirebaseSyncService
 - SyncService
+
+---
+🤖 AI Chatbot Assistant
+
+Provides interactive agricultural guidance
+User selects predefined intents (recommendations, symptoms, description, support)
+Retrieves disease-specific data from Firestore
+Sends structured context to an LLM via OpenRouter API
+Generates accurate Arabic responses based only on retrieved data
+Reduces hallucinations by grounding responses in database content
 
 ---
 
