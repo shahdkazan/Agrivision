@@ -297,4 +297,4 @@ PlantVillage, PlantDoc, YEESI, and the Mendeley/Kaggle dataset authors · Ultral
 
 ## 📬 Contact
 
-<Shahd Kazan> · www.linkedin.com/in/shahd-kazan-255487335
+Shahd Kazan · www.linkedin.com/in/shahd-kazan-255487335
