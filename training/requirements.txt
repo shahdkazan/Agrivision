@@ -1,0 +1,8 @@
+ultralytics
+mlflow
+opencv-python-headless
+numpy
+pandas
+matplotlib
+scikit-learn
+torch

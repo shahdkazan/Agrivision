@@ -1,0 +1,52 @@
+# ---- Flutter / Dart ----
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+.idea/
+.metadata
+
+# ---- Android ----
+android/.gradle/
+android/.kotlin/
+android/build/
+android/local.properties
+android/key.properties
+android/firestore-debug.log
+android/app/google-services.json
+*.jks
+*.keystore
+
+# ---- Generated platform files ----
+**/ephemeral/
+**/GeneratedPluginRegistrant.*
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+linux/flutter/generated_plugin*
+windows/flutter/generated_plugin*
+
+# ---- Secrets / config ----
+.env
+lib/firebase_options.dart
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# ---- Tooling not part of the project ----
+skills/
+skills-lock.json
+
+# ---- Python / training ----
+runs/
+*.pt
+__pycache__/
+.ipynb_checkpoints/
+wandb/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db

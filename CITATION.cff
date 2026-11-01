@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "AgriVision: Offline-First Edge AI for Crop Disease Detection and Severity Estimation"
+type: software
+license: AGPL-3.0-only
+repository-code: "https://github.com/shahdkazan/AgriVision"
+authors:
+  - family-names: "Kazan"
+    given-names: "Shahd"
+preferred-citation:
+  type: article
+  title: "AgriVision: An Offline-First Edge AI System for Crop Disease Detection and Severity Estimation Using YOLO-Based Instance Segmentation in Low-Resource Agriculture"
+  authors:
+    - family-names: "Elashmawi"
+      given-names: "Walaa H."
+    - family-names: "Kazan"
+      given-names: "Shahd"
+    - family-names: "Fahmy"
+      given-names: "Omar M."
+    - family-names: "Mahfouz"
+      given-names: "Magi"
+  journal: "Journal of Computing and Communication"
+  publisher:
+    name: "Misr International University"
+  year: 2026
+  url: "https://jocc.journals.ekb.eg/article_521612.html"
