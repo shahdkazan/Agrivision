@@ -3,7 +3,7 @@ message: "If you use this software, please cite the paper below."
 title: "AgriVision: Offline-First Edge AI for Crop Disease Detection and Severity Estimation"
 type: software
 license: AGPL-3.0-only
-repository-code: "https://github.com/shahdkazan/AgriVision"
+repository-code: "https://github.com/shahdkazan/Agrivision"
 authors:
   - family-names: "Kazan"
     given-names: "Shahd"

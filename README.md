@@ -192,8 +192,8 @@ AgriVision/
 
 ### 1. Clone
 ```bash
-git clone https://github.com/<your-username>/AgriVision.git
-cd AgriVision
+git clone https://github.com/shahdkazan/Agrivision.git
+cd Agrivision
 flutter pub get
 ```
 
@@ -292,6 +292,8 @@ Why AGPL-3.0: the model was trained with [Ultralytics YOLO](https://github.com/u
 Third-party components keep their own licenses: Ultralytics YOLO (AGPL-3.0), Noto Sans Arabic (SIL OFL 1.1), Flutter and Firebase packages (see `pubspec.yaml`), and the dataset (Kaggle page terms and the licenses of its source datasets).
 
 ## 🙏 Acknowledgements
+
+Software, model training and dataset by **Shahd Kazan**. Paper co-authors Walaa H. Elashmawi, Omar M. Fahmy and Magi Mahfouz contributed to the research, writing and supervision.
 
 PlantVillage, PlantDoc, YEESI, and the Mendeley/Kaggle dataset authors · Ultralytics · Roboflow · Flutter & Firebase communities · Misr International University.
 
